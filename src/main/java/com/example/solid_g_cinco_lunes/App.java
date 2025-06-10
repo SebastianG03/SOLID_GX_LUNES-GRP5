@@ -4,30 +4,8 @@ import com.example.solid_g_cinco_lunes.ocp.EmailNotificationSender;
 import com.example.solid_g_cinco_lunes.ocp.NotificationService;
 import com.example.solid_g_cinco_lunes.ocp.PushNotificationSender;
 import com.example.solid_g_cinco_lunes.ocp.SMSNotificationSender;
+import com.example.solid_g_cinco_lunes.lsp.*;
 
-class Animal {
-    public void makeSound() {
-        System.out.println("Animal makes a sound.");
-    }
-
-    public void walk() {
-        System.out.println("Animal is walking.");
-    }
-}
-
-class Dog extends Animal {
-    @Override
-    public void makeSound() {
-        System.out.println("Dog barks.");
-    }
-}
-
-class Fish extends Animal {
-    @Override
-    public void walk() {
-        throw new UnsupportedOperationException("Fish can't walk.");
-    }
-}
 
 public class App 
 {
@@ -36,10 +14,10 @@ public class App
         Animal fish = new Fish();
 
         dog.makeSound();
-        dog.walk();
+        ((AnimalTerrestre) dog).walk();;
 
         fish.makeSound();
-        fish.walk(); // Excepción: UnsupportedOperationException
+        ((AnimalMaritimo)fish).swim(); // Excepción: UnsupportedOperationException
         
         //NotificationService service = new NotificationService();
         //EmailNotificationSender emailSender = new EmailNotificationSender();
