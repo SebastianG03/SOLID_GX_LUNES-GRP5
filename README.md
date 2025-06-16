@@ -14,16 +14,16 @@ El principal problema al momento de implementar los principios SOLID fue la nece
 
 ## Evidencias de la ejecución
 ### Single Responsibility Principle (SRP):
-![alt text](<../rsc/SRP.jpg>)
+![alt text](<rsc/SRP.jpg>)
 ### OpenClosed Principle (OCP):
-![alt text](<../rsc/OCP.jpg>)
+![alt text](<rsc/OCP.jpg>)
 ### Liskov Substitution Principle (LSP):
-![alt text](<../rsc/lSP.jpg>)
+![alt text](<rsc/lSP.jpg>)
 ### Interface Segregation Principle (ISP):
-![alt text](<../rsc/ISP.jpg>)
+![alt text](<rsc/ISP.jpg>)
 ### Dependency Inversion Principle (DIP):
-![alt text](<../rsc/DIP 1.jpg>)
-![alt text](<../rsc/DIP 2.jpg>)
+![alt text](<rsc/DIP 1.jpg>)
+![alt text](<rsc/DIP 2.jpg>)
 
 ---
 
@@ -50,3 +50,22 @@ SOLID hace el código flexible y claro. En el sistema de pagos, usar DIP permiti
 
 #### ¿Específicamente qué principio SOLID aplicarías de lo aprendido, en futuros o actuales proyectos?
 Responsabilidad Única (SRP). Separé PaymentProcessor de la lógica de pagos en el proyecto, usando PaymentMethod. Esto hizo el código más claro y fácil de probar. Lo aplicaré en mi tesis para evitar clases sobrecargadas y mantener todo organizado.
+---
+### Estudiante: Jefferson Ruiz
+#### ¿Cuál fue el principio más desafiante de aplicar? ¿Por qué?
+
+
+#### ¿Cómo crees que SOLID mejora el diseño de software?
+
+
+#### ¿Específicamente qué principio SOLID aplicarías de lo aprendido, en futuros o actuales proyectos?
+
+
+---
+### Estudiante: Carlos Ochoa
+#### ¿Cuál fue el principio más desafiante de aplicar? ¿Por qué?
+
+#### ¿Cómo crees que SOLID mejora el diseño de software?
+
+
+#### ¿Específicamente qué principio SOLID aplicarías de lo aprendido, en futuros o actuales proyectos?
