@@ -53,19 +53,17 @@ Responsabilidad Única (SRP). Separé PaymentProcessor de la lógica de pagos en
 ---
 ### Estudiante: Jefferson Ruiz
 #### ¿Cuál fue el principio más desafiante de aplicar? ¿Por qué?
-
-
+El LSP, porque fue difícil evitar que las subclases rompieran el comportamiento esperado al reemplazar a la clase base.
 #### ¿Cómo crees que SOLID mejora el diseño de software?
-
-
+Hace el código más claro, modular y fácil de mantener o extender sin romper lo existente.
 #### ¿Específicamente qué principio SOLID aplicarías de lo aprendido, en futuros o actuales proyectos?
-
+El OCP, porque permite agregar nuevas funciones sin modificar el código ya escrito, evitando errores.
 
 ---
 ### Estudiante: Carlos Ochoa
 #### ¿Cuál fue el principio más desafiante de aplicar? ¿Por qué?
-
+El mas desafiante fue el principio DIP, me resulto complicado entender como desacoplar los modulos, al principio no es tan intuitivo pero no es tan complejo una vez le entiendes.
 #### ¿Cómo crees que SOLID mejora el diseño de software?
-
-
+SOLID mejora el diseño de software al hacerlo más modular, escalable y fácil de mantener. Permite reutilizar componentes y escribir pruebas automatizadas más efectivas, lo que mejora la calidad general del proyecto.
 #### ¿Específicamente qué principio SOLID aplicarías de lo aprendido, en futuros o actuales proyectos?
+Aplicaria especialmente el SRP, ya que esto ayuda mucho a que las clases hagan 1 sola cosa y  es mas facil de mantener.
