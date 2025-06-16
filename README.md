@@ -37,7 +37,7 @@ Por último, requiere un profundo entendimiento del código dado que el cambio d
 Los principios SOLID permiten establecer las bases para programar con conciencia y bajo principios lógicos claros. En mi opinión, los principios SOLID pueden mejorar la calidad del código cuando se aplican bien. No obstante, utilizar estos principios sin consciencia ni la comprensión necesaria de cuando es necesario aplicarlos afectará la mantenibilidad y limpieza del código.
 #### ¿Específicamente qué principio SOLID aplicarías de lo aprendido, en futuros o actuales proyectos?
 Aplicaría SRP para la creación de clases basadas en el dominio y para la creación de servicios para APIs. También, utilizaría DIP para la comunicación entre servicios y para facilitar la creación de mocks para testing.
----
+
 ### Estudiante: Anderson Guaman
 #### ¿Cuál fue el principio más desafiante de aplicar? ¿Por qué?
 Inversión de Dependencias (DIP). En el proyecto de pagos, depender de CreditCardPayment fue un lío. Crear la interfaz PaymentMethod y usarla en PaymentProcessor me costó entender al inicio, pero luego vi cómo facilitó agregar PayPalPayment sin romper nada.
