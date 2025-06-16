@@ -33,13 +33,10 @@ El principal problema al momento de implementar los principios SOLID fue la nece
 En mi opinión DIP fue el principio más desafiante porque requiere cambiar la forma en la programamos, programando tal que las clases de alto nivel dependan de las de bajo nivel.
 Además, requiere de refactorización de código dado que algunas abstracciones no son obvias al inicio del proyecto.
 Por último, requiere un profundo entendimiento del código dado que el cambio de una dependencia o clase modifica a la estructura del sistema.
-
 #### ¿Cómo crees que SOLID mejora el diseño de software?
 Los principios SOLID permiten establecer las bases para programar con conciencia y bajo principios lógicos claros. En mi opinión, los principios SOLID pueden mejorar la calidad del código cuando se aplican bien. No obstante, utilizar estos principios sin consciencia ni la comprensión necesaria de cuando es necesario aplicarlos afectará la mantenibilidad y limpieza del código.
-
 #### ¿Específicamente qué principio SOLID aplicarías de lo aprendido, en futuros o actuales proyectos?
 Aplicaría SRP para la creación de clases basadas en el dominio y para la creación de servicios para APIs. También, utilizaría DIP para la comunicación entre servicios y para facilitar la creación de mocks para testing.
-
 ---
 ### Estudiante: Anderson Guaman
 #### ¿Cuál fue el principio más desafiante de aplicar? ¿Por qué?
