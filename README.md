@@ -18,7 +18,7 @@ El principal problema al momento de implementar los principios SOLID fue la nece
 ### OpenClosed Principle (OCP):
 ![alt text](<rsc/OCP.jpg>)
 ### Liskov Substitution Principle (LSP):
-![alt text](<rsc\LSP.jpg>)
+![alt text](LSP.jpg)
 ### Interface Segregation Principle (ISP):
 ![alt text](<rsc/ISP.jpg>)
 ### Dependency Inversion Principle (DIP):
